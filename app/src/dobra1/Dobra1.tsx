@@ -1,4 +1,4 @@
-import wp from "./wp.png";
+import wp from "../wp.png";
 import photo_banner from "./photo_banner.png"
 
 function Dobra1() {

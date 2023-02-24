@@ -1,7 +1,7 @@
 import what1 from './what1.svg';
 import what2 from './what2.svg';
 import what3 from './what3.svg';
-import wp from "./wp.png";
+import wp from "../wp.png";
 
 function Dobra2() {
   return (
@@ -19,7 +19,7 @@ function Dobra2() {
         <img src={what3}/>
         <p>E o melhor: sem precisar se preocupar em pagar parcelas mensais,<br/>já que o pagamento é feito por descontos anuais direto do seu saldo do FGTS.</p>
       </div>
-      <button className="bg-[#158B7D] text-white rounded-xl px-4 py-2 flex justify-evenly w-44 items-center mx-auto mt-5"><p className="text-xl">Fale conosco</p><img className="w-5 h-5" src={wp} alt="Logo do WhatsApp"/></button>
+      <button className="bg-[#158B7D] text-white rounded-xl px-4 py-2 flex justify-evenly w-44 items-center mx-auto mt-8"><p className="text-xl">Fale conosco</p><img className="w-5 h-5" src={wp} alt="Logo do WhatsApp"/></button>
     </>
   )
 }
