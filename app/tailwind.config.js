@@ -12,7 +12,12 @@ module.exports = {
       'desktop': '1280px',
       // => @media (min-width: 1280px) { ... }
     },
-    extend: {},
+    extend: {
+      colors:{
+        'prim': '#313F55',
+        'sub': '#D5B473',
+      },
+    },
   },
   plugins: [],
 }
