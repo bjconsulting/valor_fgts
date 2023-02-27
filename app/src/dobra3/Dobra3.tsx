@@ -12,19 +12,19 @@ function Dobra3() {
 
       <div className='flex flex-wrap justify-center gap-y-5 gap-x-10 mb-10'>
         <div className="advbg w-[156px] h-[141px] flex flex-col pt-7 items-center text-center">
-          <img className='w-5 h-5 mb-2' src={adv1}/>
+          <img className='w-5 h-5 mb-2' src={adv1} alt="Jóinha"/>
           <p className="text-sm font-bold">Sem compromissos de parcelas mensais, desconto no saldo FGTS</p>
         </div>
         <div className="advbg w-[156px] h-[141px] flex flex-col pt-7 items-center text-center">
-          <img className='w-5 h-5 mb-2' src={adv2}/>
+          <img className='w-5 h-5 mb-2' src={adv2} alt="Lupa"/>
           <p className='text-sm font-bold'>Sem consulta<br/>SPC/Serasa</p>
         </div>
         <div className="advbg w-[156px] h-[141px] flex flex-col pt-14 items-center text-center">
-          <img className='w-5 h-5 mb-2' src={adv3}/>
+          <img className='w-5 h-5 mb-2' src={adv3} alt="Seta para baixo"/>
           <p className="text-sm font-bold">Taxa min. 1,79%</p>
         </div>
         <div className="advbg w-[156px] h-[141px] flex flex-col pt-14 items-center text-center">
-          <img className='w-5 h-5 mb-2' src={adv4}/>
+          <img className='w-5 h-5 mb-2' src={adv4} alt="Cédula de dinheiro"/>
           <p className='text-sm font-bold'>Dinheiro em 24h<br/>após confirmação</p>
         </div>
       </div>
