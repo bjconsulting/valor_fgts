@@ -7,3 +7,7 @@
   background-position-y: -110px;
   background-repeat: no-repeat;
 }
+
+.num {
+  box-shadow: 5px 4px 13px 2px rgba(0, 0, 0, 0.25);
+}
