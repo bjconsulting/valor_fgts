@@ -6,6 +6,7 @@ import Dobra4 from './dobra4/Dobra4';
 import Dobra5 from './dobra5/Dobra5';
 import Dobra6 from './dobra6/Dobra6';
 import Dobra7 from './dobra7/Dobra7';
+import Dobra8 from './dobra8/Dobra8';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Dobra5/>
       <Dobra6/>
       <Dobra7/>
+      <Dobra8/>
     </>
   );
 }
