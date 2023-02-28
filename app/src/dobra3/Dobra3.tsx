@@ -5,7 +5,7 @@ import adv4 from './adv4.svg';
 
 function Dobra3() {
   return(
-    <>
+    <div className='w-[393px] mx-auto'>
       <h3 className='text-[10px] text-center font-bold uppercase mt-8 tracking-[0.35em]'>Vantagens</h3>
       <h2 className="text-[26px] text-center font-bold my-1">Conheça as <span className="text-[#D5B473]">Vantagens</span> de utilizar o Saque Aniversário</h2>
       <p className="text-sm text-center mt-5 mb-10 mx-5 leading-7">Quem for optante pelo saque aniversário do FGTS pode antecipar 10 saques aniversário, recebe direto em sua conta corrente em até 24h úteis</p>
@@ -28,7 +28,7 @@ function Dobra3() {
           <p className='text-sm font-bold'>Dinheiro em 24h<br/>após confirmação</p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

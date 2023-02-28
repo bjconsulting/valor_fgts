@@ -5,7 +5,7 @@ import n4 from './num4.svg';
 
 function Dobra4() {
   return(
-    <>
+    <div className='w-[393px] mx-auto'>
       <h2 className="text-[33px] text-center font-bold">Nossos <span className="text-[#D5B473]">números</span></h2>
       <div className="flex flex-wrap justify-center gap-y-12 gap-x-7 my-12">
         <div className="num w-[158px] h-[132px] flex flex-col pt-5 items-center text-center">
@@ -29,7 +29,7 @@ function Dobra4() {
           <div className='text-xs'>De avaliação no google</div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
