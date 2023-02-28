@@ -1,11 +1,9 @@
 import wp from "../wp.png";
 import photo_banner from "./photo_banner.png"
-import Header from "../header/Header";
 
 function Dobra1() {
   return (
     <>
-      <Header/>
       <h3 className='text-[10px] text-center font-bold uppercase'>Antecipação do saque aniversário do FGTS</h3>
       <h2 className="text-lg text-center font-bold my-1">Antecipe até <span className="text-[#D5B473]">10 Anos</span> do seu FGTS</h2>
       <div className="text-xs text-center w-[297px] mx-auto my-2">Adiante até 10 parcelas do seu Saque Aniversário. Clique em fale conosco, nos chame no Whatsapp, e receba seu adiantamento hoje mesmo.</div>
