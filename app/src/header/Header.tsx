@@ -17,7 +17,7 @@ function Header() {
                     <Menu open={open}/>
                 </div>
 
-                <div className="hidden desktop:flex flex-row gap-5 mr-28">
+                <div className="hidden desktop:flex flex-row gap-5">
                     <a href="#" className='text-[20px] leading-[24px] font-bold p-5 pt-2 border-b-2 border-b-transparent hover:border-b-[#354452]'>Home</a>
                     <a href="#como-obter" className='text-[20px] leading-[24px] font-bold p-5 pt-2 border-b-2 border-b-transparent hover:border-b-[#354452]'>Como obter</a>
                     <a href="#depoimentos" className='text-[20px] leading-[24px] font-bold p-5 pt-2 border-b-2 border-b-transparent hover:border-b-[#354452]'>Depoimentos</a>
