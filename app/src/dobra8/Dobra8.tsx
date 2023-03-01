@@ -3,7 +3,7 @@ import wp from "../wp.png";
 
 function Dobra8() {
   return(
-    <div className="my-5 tablet:my-16">
+    <div id='faq' className="my-5 tablet:my-16">
       <h2 className="text-[23px] text-center font-bold tablet:text-[56px] tablet:leading-[67.2px]">Perguntas <br className='hidden tablet:block'/><span className="text-[#D5B473]">Frequentes</span></h2>
       <ul className="font-[nexa] font-bold w-[300px] mx-auto mt-7 tablet:w-[640px]">
         <li className="text-[15px] list-disc my-2 tablet:my-5 tablet:text-[25px]">

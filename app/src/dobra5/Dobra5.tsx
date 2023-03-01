@@ -4,7 +4,7 @@ import modelo1 from './modelo1.png'
 
 function Dobra5() {
   return(
-    <>
+    <div id="como-obter">
       <div className="bg-[#313F55] text-white text-center pt-4 tablet:pt-16 tablet:mt-20">
         <h2 className="text-xl font-bold mb-8 tablet:text-[52px]"><span className="text-[#D5B473]">Como obter</span> meu empréstimo</h2>
         <div className='w-64 mx-auto text-left flex flex-col gap-y-2 tablet:w-[620px] tablet:gap-5 tablet:mt-16'>
@@ -42,7 +42,7 @@ function Dobra5() {
           <img className='w-72 mx-auto tablet:absolute tablet:top-0 tablet:w-[498px] tablet:h-auto tablet:left-[-50px]' src={modelo1} alt="Pessoa sorrindo olhando para o celular"/>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
