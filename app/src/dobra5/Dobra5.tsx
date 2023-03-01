@@ -9,27 +9,27 @@ function Dobra5() {
         <h2 className="text-xl font-bold mb-8"><span className="text-[#D5B473]">Como obter</span> meu empréstimo</h2>
         <div className='w-64 mx-auto text-left flex flex-col gap-y-2'>
           <div className='text-xs flex flex-row gap-x-2 items-start'>
-            <img className='mt-1' src={check} alt="" />
+            <img className='mt-1 w-[12px] h-[8px]' src={check} alt="" />
             <span>Ser maior de 18 anos ou emancipado;</span>
           </div>
           <div className='text-xs flex flex-row gap-x-2 items-start'>
-            <img className='mt-1' src={check} alt="" />
+            <img className='mt-1 w-[12px] h-[8px]' src={check} alt="" />
             <span>CPF em situação regular na receita;</span>
           </div>
           <div className='text-xs flex flex-row gap-x-2 items-start'>
-            <img className='mt-1' src={check} alt="" />
+            <img className='mt-1 w-[12px] h-[8px]' src={check} alt="" />
             <span>Ter conta-corrente ou poupança</span>
           </div>
           <div className='text-xs flex flex-row gap-x-2 items-start'>
-            <img className='mt-1' src={check} alt="" />
+            <img className='mt-1 w-[12px] h-[8px]' src={check} alt="" />
             <span>Optar pelo saque de aniversário</span>
           </div>
           <div className='text-xs flex flex-row gap-x-2 items-start'>
-            <img className='mt-1' src={check} alt="" />
+            <img className='mt-1 w-[12px] h-[8px]' src={check} alt="" />
             <span>Autorizar o banco a acessar seus dados e valores do FGTS;</span>
           </div>
           <div className='text-xs flex flex-row gap-x-2 items-start'>
-            <img className='mt-1' src={check} alt="" />
+            <img className='mt-1 w-[12px] h-[8px]' src={check} alt="" />
             <span>Aprovar a simulação</span>
           </div>
         </div>

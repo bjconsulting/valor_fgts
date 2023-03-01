@@ -22,7 +22,20 @@
 @font-face {
   font-family: "neo-sans-std";
   src: local("neo-sans-std-light"),
-    url("../public/fonts/neo-sans-std-italic.otf");
+    url("../public/fonts/neo-sans-std-light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "nexa";
+  src: local("NexaBold"),
+    url("../public/fonts/nexa-bold.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "nexa";
+  src: local("NexaLight"),
+    url("../public/fonts/nexa-light.otf");
   font-weight: 300;
 }
 
