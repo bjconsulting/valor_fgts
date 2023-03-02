@@ -1,6 +1,6 @@
 function Dobra6() {
   return(
-    <div id="depoimentos" className="my-9 tablet:mt-[75px]">
+    <div id="depoimentos" className="my-9 tablet:mt-[75px] desktop:mb-[10%]">
       <h2 className="text-xl text-center font-bold tablet:text-[44px]">O que os nossos clientes dizem</h2>
       <div className="mt-5 mb-8 w-80 h-44 mx-auto bg-slate-400 tablet:mt-9 tablet:w-[700px] tablet:h-[300px]"></div>
       <h3 className="font-[nexa] text-[10px] text-center mb-4 tablet:text-[21px]">Avaliação totalizada Google <b>4.9 de 5</b>, com base em <b>155 avaliações</b></h3>

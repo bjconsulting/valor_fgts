@@ -4,9 +4,9 @@ import wp from "../wp.png";
 function Dobra8() {
   return(
     <div id='faq' className="my-5 tablet:my-16">
-      <h2 className="text-[23px] text-center font-bold tablet:text-[56px] tablet:leading-[67.2px]">Perguntas <br className='hidden tablet:block'/><span className="text-[#D5B473]">Frequentes</span></h2>
-      <ul className="font-[nexa] font-bold w-[300px] mx-auto mt-7 tablet:w-[640px]">
-        <li className="text-[15px] list-disc my-2 tablet:my-5 tablet:text-[25px]">
+      <h2 className="text-[23px] text-center font-bold tablet:text-[56px] tablet:leading-[67.2px] ">Perguntas <br className='hidden tablet:block desktop:hidden'/><span className="text-[#D5B473]">Frequentes</span></h2>
+      <ul className="font-[nexa] font-bold w-[300px] mx-auto mt-7 tablet:w-[640px] desktop:min-w-[70%] desktop:max-w-[72%]">
+        <li className="text-[15px] list-disc my-2 tablet:my-5 tablet:text-[25px] desktop:my-12">
           <div className="wrap-collabsible">
             <input id="collapsible1" className="toggle" type="checkbox"/>
             <label htmlFor="collapsible1" className="lbl-toggle tablet:text-[25px]">O que é o Saque aniversário do FGTS?</label>
@@ -15,7 +15,7 @@ function Dobra8() {
             </div>
           </div>
         </li>
-        <li className="text-[15px] list-disc my-2 tablet:my-5 tablet:text-[25px]">
+        <li className="text-[15px] list-disc my-2 tablet:my-5 tablet:text-[25px] desktop:my-12">
           <div className="wrap-collabsible">
             <input id="collapsible2" className="toggle" type="checkbox"/>
             <label htmlFor="collapsible2" className="lbl-toggle tablet:text-[25px]">Quais são as vantagens da contratação do crédito</label>
@@ -24,7 +24,7 @@ function Dobra8() {
             </div>
           </div>
         </li>
-        <li className="text-[15px] list-disc my-2 tablet:my-5 tablet:text-[25px]">
+        <li className="text-[15px] list-disc my-2 tablet:my-5 tablet:text-[25px] desktop:my-12">
           <div className="wrap-collabsible">
             <input id="collapsible3" className="toggle" type="checkbox"/>
             <label htmlFor="collapsible3" className="lbl-toggle tablet:text-[25px]">Posso alterar a modalidade de saque aniversário para saque rescisão depois da contratação do produto?</label>
@@ -33,7 +33,7 @@ function Dobra8() {
             </div>
           </div>
         </li>
-        <li className="text-[15px] list-disc my-2 tablet:my-5 tablet:text-[25px]">
+        <li className="text-[15px] list-disc my-2 tablet:my-5 tablet:text-[25px] desktop:my-12">
           <div className="wrap-collabsible">
             <input id="collapsible4" className="toggle" type="checkbox"/>
             <label htmlFor="collapsible4" className="lbl-toggle tablet:text-[25px]">Fui demitido da empresa e sou optante ao saque aniversário, tenho direito a sacar algum valor?</label>
