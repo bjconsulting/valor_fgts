@@ -1,4 +1,7 @@
 import logo from './bottom-logo.png';
+import { AiOutlineInstagram, AiFillFacebook } from 'react-icons/ai'
+import { RiWhatsappLine } from 'react-icons/ri'
+import { CgWebsite } from 'react-icons/cg'
 
 function Footer() {
   return(
@@ -9,12 +12,11 @@ function Footer() {
       </div>
       <div className='tablet:flex tablet:flex-col'>
         <h2 className='text-xl mb-6'>Links Rápidos</h2>
-        <ul className='flex flex-col text-xs font-normal gap-4 mb-10 tablet:text-sm'>
-          <li>Simular Saque</li>
-          <li>Ligação Gratuita</li>
-          <li>Whatsapp</li>
-          <li>Como Funciona?</li>
-          <li>Site Valor</li>
+        <ul className='flex flex-col items-center text-xs font-normal gap-4 mb-10 tablet:text-sm'>
+          <li><a className='flex flex-row items-center gap-1' href='https://wa.me/5518991332855' target='_blank'><RiWhatsappLine className="w-[2em] h-[2em] desktop:w-[1em] desktop:h-[3em]" /> WhatsApp</a></li>
+          <li><a className='flex flex-row items-center gap-1' href='https://valorservicos.com.br/' target='_blank'><CgWebsite className="w-[2em] h-[2em] desktop:w-[1em] desktop:h-[3em]"/> Site Valor</a></li>
+          <li><a className='flex flex-row items-center gap-1' href='https://www.facebook.com/valorsfinanceiros' target='_blank'><AiFillFacebook className="w-[2em] h-[2em] desktop:w-[1em] desktop:h-[3em]" /> Facebook</a></li>
+          <li><a className='flex flex-row items-center gap-1' href='https://www.instagram.com/VALORSFINANCEIROS/' target='_blank'><AiOutlineInstagram className="w-[2em] h-[2em] desktop:w-[1em] desktop:h-[3em]"/> Instagram</a></li>
         </ul>
       </div>
       <div className='text-xs w-[326px] mx-auto tablet:mx-0 tablet:leading-[19.18px]'>
