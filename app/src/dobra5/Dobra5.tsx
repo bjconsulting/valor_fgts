@@ -8,30 +8,30 @@ function Dobra5() {
       <div className="bg-[#313F55] text-white text-center pt-4 tablet:pt-16 tablet:mt-20 desktop:relative">
         <div className='desktop:ml-[30%] desktop:absolute desktop:top-[7%] desktop:right-[8%]'>
           <h2 className="text-[7vw] font-bold mb-8 tablet:text-[52px]"><span className="text-[#D5B473]">Como obter</span> meu empréstimo</h2>
-          <div className='w-64 mx-auto text-left flex flex-col gap-y-2 tablet:w-[620px] tablet:gap-5 tablet:mt-16'>
+          <div className='w-80 mx-auto text-left flex flex-col gap-y-2 tablet:w-[620px] tablet:gap-5 tablet:mt-16'>
             <div className='text-sm flex flex-row gap-x-2 items-start'>
               <img className='mt-1 w-[12px] h-[8px] tablet:w-[24.5px] tablet:h-[15.41px]' src={check} alt="" />
-              <span className='tablet:text-[20px]'>Ser maior de 18 anos ou emancipado;</span>
+              <span className='font-bold tablet:font-normal tablet:text-[20px]'>Ser maior de 18 anos ou emancipado;</span>
             </div>
             <div className='text-sm flex flex-row gap-x-2 items-start'>
               <img className='mt-1 w-[12px] h-[8px] tablet:w-[24.5px] tablet:h-[15.41px]' src={check} alt="" />
-              <span className='tablet:text-[20px]'>CPF em situação regular na receita;</span>
+              <span className='font-bold tablet:font-normal tablet:text-[20px]'>CPF em situação regular na receita;</span>
             </div>
             <div className='text-sm flex flex-row gap-x-2 items-start'>
               <img className='mt-1 w-[12px] h-[8px] tablet:w-[24.5px] tablet:h-[15.41px]' src={check} alt="" />
-              <span className='tablet:text-[20px]'>Ter conta-corrente ou poupança</span>
+              <span className='font-bold tablet:font-normal tablet:text-[20px]'>Ter conta-corrente ou poupança</span>
             </div>
             <div className='text-sm flex flex-row gap-x-2 items-start'>
               <img className='mt-1 w-[12px] h-[8px] tablet:w-[24.5px] tablet:h-[15.41px]' src={check} alt="" />
-              <span className='tablet:text-[20px]'>Optar pelo saque de aniversário</span>
+              <span className='font-bold tablet:font-normal tablet:text-[20px]'>Optar pelo saque de aniversário</span>
             </div>
             <div className='text-sm flex flex-row gap-x-2 items-start'>
               <img className='mt-1 w-[12px] h-[8px] tablet:w-[24.5px] tablet:h-[15.41px]' src={check} alt="" />
-              <span className='tablet:text-[20px]'>Autorizar o banco a acessar seus dados e valores do FGTS;</span>
+              <span className='font-bold tablet:font-normal tablet:text-[20px]'>Autorizar o banco a acessar seus dados e valores do FGTS;</span>
             </div>
             <div className='text-sm flex flex-row gap-x-2 items-start'>
               <img className='mt-1 w-[12px] h-[8px] tablet:w-[24.5px] tablet:h-[15.41px]' src={check} alt="" />
-              <span className='tablet:text-[20px]'>Aprovar a simulação</span>
+              <span className='font-bold tablet:font-normal tablet:text-[20px]'>Aprovar a simulação</span>
             </div>
           </div>
         </div>

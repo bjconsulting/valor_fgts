@@ -15,7 +15,7 @@ function Dobra3() {
         <div className='tablet:w-[467px] tablet:pr-[64px] tablet:place-self-start'>
           <h3 className='text-[10px] text-center font-bold uppercase mt-8 tracking-[0.35em] tablet:text-[17px] tablet:leading-[20.4px] tablet:tracking-[0.35em]'>Vantagens</h3>
           <h2 className="text-[7vw] text-center font-bold my-1 tablet:text-[25px] tablet:leading-[30px]">Conheça as <span className="text-[#D5B473]">Vantagens</span> de utilizar o Saque Aniversário</h2>
-          <p className="font-[nexa] text-sm text-center mt-5 mb-10 mx-5 leading-7 tablet:font-bold tablet:text-[16px] tablet:leading-[21.2px] tablet:mx-auto">Quem for optante pelo saque aniversário do FGTS pode antecipar 10 saques aniversário, recebe direto em sua conta corrente em até 24h úteis</p>
+          <p className="font-[nexa] font-bold text-sm text-center mt-5 mb-10 mx-5 leading-7 tablet:font-bold tablet:text-[16px] tablet:leading-[21.2px] tablet:mx-auto">Quem for optante pelo saque aniversário do FGTS pode antecipar 10 saques aniversário, recebe direto em sua conta corrente em até 24h úteis</p>
         </div>
       </div>
 
