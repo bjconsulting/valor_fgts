@@ -7,7 +7,7 @@
   background-image: url(adv-bg.png);
   box-shadow: 9px 9px 26px -9px rgba(0, 0, 0, 0.25);
   border-radius: 31px;
-  transform: matrix(1, 0.02, -0.02, 1, 0, 0);
+  /* transform: matrix(1, 0.02, -0.02, 1, 0, 0); */
   background-repeat: no-repeat;
 }
 
