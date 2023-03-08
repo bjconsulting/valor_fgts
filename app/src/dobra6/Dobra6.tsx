@@ -11,7 +11,7 @@ function Dobra6() {
     if (!wrapper.current || !container.current) return;
 
     const currentIndex = Math.ceil(container.current.scrollLeft / wrapper.current.clientWidth);
-    const prevIndex = currentIndex == 0
+    const prevIndex = currentIndex === 0
                       ? container.current.childElementCount - 1
                       : currentIndex -1;
     //container.current.children[prevIndex].scrollIntoView();
@@ -22,7 +22,7 @@ function Dobra6() {
     if (!wrapper.current || !container.current) return;
 
     const currentIndex = Math.floor(container.current.scrollLeft / wrapper.current.clientWidth);
-    const nextIndex = currentIndex == container.current.childElementCount - 1
+    const nextIndex = currentIndex === container.current.childElementCount - 1
                       ? 0
                       : currentIndex + 1;
     //container.current.children[nextIndex].scrollIntoView();
@@ -66,7 +66,7 @@ function Depoimento(props: DepoimentoProps) {
       <div className='bg-white rounded-xl p-4 w-11/12'>
         <div className='flex flex-row gap-4'>
           <div className='flex items-center'>
-            <img className='w-10 h-10' src={props.depoimento.avatar}/>
+            <img className='w-10 h-10' src={props.depoimento.avatar} alt={`Avatar de ${props.depoimento.nome}`}/>
           </div>
           <div className='flex flex-col'>
             <div>{props.depoimento.nome}</div>

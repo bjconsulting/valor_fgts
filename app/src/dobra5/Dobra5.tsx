@@ -40,7 +40,7 @@ function Dobra5() {
           <div>
             <h2 className="text-xl font-bold mt-8 text-[#D5B473] tablet:text-[32px] tablet:absolute tablet:top-[81px] tablet:right-[5px] desktop:right-[20%] desktop:top-[58%] ">Você atende todos os requisitos?</h2>
 
-            <button className="bg-[#158B7D] text-white rounded-xl px-4 py-2 flex justify-evenly w-44 items-center mx-auto mt-5 tablet:absolute tablet:top-[250px] tablet:right-[160px] tablet:w-[198px] tablet:h-[64px] desktop:right-[30%] desktop:top-[70%]"><p className="text-xl">Fale conosco</p><img className="w-5 h-5" src={wp} alt="Logo do WhatsApp" /></button>
+            <a href="https://wa.me/#" target="_blank" rel="noreferrer" className="bg-[#158B7D] text-white rounded-xl px-4 py-2 flex justify-evenly w-44 items-center mx-auto mt-5 tablet:absolute tablet:top-[250px] tablet:right-[160px] tablet:w-[198px] tablet:h-[64px] desktop:right-[30%] desktop:top-[70%]"><p className="text-xl">Fale conosco</p><img className="w-5 h-5" src={wp} alt="Logo do WhatsApp" /></a>
           </div>
 
           <img className='w-72 mx-auto tablet:absolute tablet:top-0 tablet:w-[498px] tablet:h-auto tablet:left-[-50px]  desktop:left-[15%]' src={modelo1} alt="Pessoa sorrindo olhando para o celular" />

@@ -26,7 +26,7 @@ function Dobra2() {
             <p className='font-[nexa] tablet:text-[16px] tablet:leading-[16.96px] tablet:font-bold'>E o melhor: sem precisar se preocupar em pagar parcelas mensais,<br className='tablet:hidden'/>já que o pagamento é feito por descontos anuais direto do seu saldo do FGTS.</p>
           </div>
         </div>
-        <button className="bg-[#158B7D] text-white rounded-xl px-4 py-2 flex justify-evenly w-44 items-center mx-auto mt-8 tablet:ml-16 desktop:ml-24 desktop:w-48 desktop:py-2 desktop:text-[28px] desktop:my-12"><p className="text-xl">Fale conosco</p><img className="w-5 h-5" src={wp} alt="Logo do WhatsApp"/></button>
+        <a href="https://wa.me/#" target="_blank" rel="noreferrer" className="bg-[#158B7D] text-white rounded-xl px-4 py-2 flex justify-evenly w-44 items-center mx-auto mt-8 tablet:ml-16 desktop:ml-24 desktop:w-48 desktop:py-2 desktop:text-[28px] desktop:my-12"><p className="text-xl">Fale conosco</p><img className="w-5 h-5" src={wp} alt="Logo do WhatsApp"/></a>
       </div>
     </div>
   )
