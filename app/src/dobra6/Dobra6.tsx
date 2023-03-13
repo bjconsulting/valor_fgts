@@ -1,12 +1,14 @@
+import Image from 'next/image';
 import { useRef } from 'react';
 import data from './depoimentos.json';
 import { TbStarFilled } from 'react-icons/tb';
 
 function Dobra6() {
 
-  console.log('Data loaded! and component rendered!', data);
+  //console.log('Data loaded! and component rendered!', data);
   const wrapper = useRef<HTMLDivElement>(null);
   const container = useRef<HTMLDivElement>(null);
+  /*
   const prev = () => {
     if (!wrapper.current || !container.current) return;
 
@@ -28,17 +30,18 @@ function Dobra6() {
     //container.current.children[nextIndex].scrollIntoView();
     container.current.scrollLeft = (wrapper.current.clientWidth * nextIndex);
   }
+  */
 
   return(
     <div id="depoimentos" className="my-9 tablet:mt-[75px] desktop:mb-[10%]">
       <h2 className="text-xl text-center font-bold tablet:text-[44px]">O que os nossos clientes dizem</h2>
       <div ref={wrapper} className="mt-5 mb-8 w-full h-auto mx-auto bg-slate-400 tablet:mt-9 tablet:w-[700px] overflow-hidden relative">
-        <button className='hidden absolute flex top-0 bottom-0 m-auto h-16 bg-white w-8 text-5xl p-0 cursor-pointer opacity-50 transition-opacity hover:opacity-100 left-0 pl-1' onClick={prev}>
+        {/* <button className='hidden absolute flex top-0 bottom-0 m-auto h-16 bg-white w-8 text-5xl p-0 cursor-pointer opacity-50 transition-opacity hover:opacity-100 left-0 pl-1' onClick={prev}>
           &#8249;
         </button>
         <button className='hidden absolute flex top-0 bottom-0 m-auto h-16 bg-white w-8 text-5xl p-0 cursor-pointer opacity-50 transition-opacity hover:opacity-100 right-0 pl-1' onClick={next}>
           &#8250;
-        </button>
+        </button> */}
         <div ref={container} className='carousel-container py-4 flex overflow-x-scroll scroll-smooth justify-start items-center snap-x snap-mandatory'>
           {data.map((d,i) => <Depoimento key={i} depoimento={d} index={i}/>)}
         </div>
@@ -66,14 +69,14 @@ function Depoimento(props: DepoimentoProps) {
       <div className='bg-white rounded-xl p-4 w-11/12'>
         <div className='flex flex-row gap-4'>
           <div className='flex items-center'>
-            <img className='w-10 h-10' src={props.depoimento.avatar} alt={`Avatar de ${props.depoimento.nome}`}/>
+            <img className='w-10 h-10' src={props.depoimento.avatar} alt={`Avatar de ${props.depoimento.nome}`} loading="lazy" decoding='async'/>
           </div>
           <div className='flex flex-col'>
             <div>{props.depoimento.nome}</div>
             <div>
               {formatDate(props.depoimento.data)}
               <div className='flex flex-row'>
-                {stars.map((_) => <Star/>)}
+                {stars.map((_, i) => <Star key={i}/>)}
               </div>
             </div>
           </div>

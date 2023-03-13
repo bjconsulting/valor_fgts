@@ -1,6 +1,15 @@
+import {useRouter} from 'next/router';
+
 function WhatsAppCtaUrl() {
-  const params = new URLSearchParams(window.location.search);
-  const source = (params.get('utm_source') ?? '').toLowerCase();
+  const router = useRouter();
+  let temp = router.query['utm_source'];
+  if (Array.isArray(temp))
+    [temp] = temp;
+  const source = temp ?? '';
+  //console.log({fonte:source});
+
+  //const params = new URLSearchParams(window.location.search);
+  //const source = (params.get('utm_source') ?? '').toLowerCase();
   const greetingEncoded = encodeURIComponent(GetGreeting(source));
   return `https://wa.me/5518991332855?text=${greetingEncoded}`;
 }

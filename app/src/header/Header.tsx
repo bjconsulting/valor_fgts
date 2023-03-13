@@ -1,7 +1,8 @@
+import Image from 'next/image';
 import { useState } from "react";
+import NextImgSrc from '../NextImgSrc';
 import Hamb from "./Hamb";
 import Menu from "./Menu";
-import logo from './logo.png'
 
 function Header() {
     const [open, setOpen] = useState(false);
@@ -9,7 +10,7 @@ function Header() {
         <header className="max-w-[393px] py-8 mx-auto tablet:mx-auto tablet:max-w-[834px] desktop:max-w-[1440px]">
             <div className="max-w-[90%] mx-auto flex justify-between">
                 <picture className="pointer-events-none">
-                    <img className="w-[82px] tablet:w-[168px] desktop:w-[235.55px]" src={logo} alt="Valor Serviços" />
+                    <Image width={236} height={52} className="w-[82px] tablet:w-[168px] desktop:w-[235.55px]" src={NextImgSrc('img/logo.png')} alt="Valor Serviços" />
                 </picture>
 
                 <div className="desktop:hidden">

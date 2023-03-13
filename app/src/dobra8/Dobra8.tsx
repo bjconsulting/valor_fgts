@@ -1,5 +1,6 @@
-import './Dobra8.css';
-import wp from "../wp.png";
+import Image from 'next/image';
+import { RiWhatsappLine } from 'react-icons/ri';
+import NextImgSrc from '../NextImgSrc';
 import WhatsAppCtaUrl from '../WhatsAppCtaUrl';
 
 function Dobra8() {
@@ -45,7 +46,7 @@ function Dobra8() {
         </li>
       </ul>
 
-      <a href={WhatsAppCtaUrl()} target="_blank" rel="noreferrer" className="bg-[#158B7D] text-white rounded-xl px-4 py-2 flex justify-evenly w-44 items-center mx-auto mt-8 tablet:w-48 tablet:h-14"><p className="text-xl">Fale conosco</p><img className="w-5 h-5" src={wp} alt="Logo do WhatsApp"/></a>
+      <a href={WhatsAppCtaUrl()} target="_blank" rel="noreferrer" className="bg-[#158B7D] text-white rounded-xl px-4 py-2 flex justify-evenly w-44 items-center mx-auto mt-8 tablet:w-48 tablet:h-14"><p className="text-xl">Fale conosco</p><RiWhatsappLine className="w-5 h-5" /></a>
     </div>
   )
 }

@@ -1,13 +1,14 @@
-import logo from './bottom-logo.png';
+import Image from 'next/image';
 import { AiOutlineInstagram, AiFillFacebook } from 'react-icons/ai'
 import { RiWhatsappLine } from 'react-icons/ri'
 import { CgWebsite } from 'react-icons/cg'
+import NextImgSrc from '../NextImgSrc';
 
 function Footer() {
   return(
     <div className="w-full bg-[#3C4450] pt-10 text-white text-center pb-10 tablet:pt-20 tablet:flex tablet:flex-row tablet:flex-grow tablet:justify-evenly tablet:text-left">
       <div className='tablet:flex tablet:flex-col'>
-        <img className='w-[201px] mx-auto tablet:w-[158.25px] tablet:mx-0' src={logo} alt="Logo" />
+        <Image width={401} height={99} className='w-[201px] mx-auto tablet:w-[158.25px] tablet:mx-0' src={NextImgSrc('img/bottom-logo.png')} alt="Logo" />
         <div className='w-[243px] mx-auto my-10 text-xs tablet:w-auto'>VALOR SERVIÇOS FINANCEIROS LTDA<br/>CNPJ: 42.095.396/0001-48<br/>TELEFONE: (18) 3600-7910</div>
       </div>
       <div className='tablet:flex tablet:flex-col'>
