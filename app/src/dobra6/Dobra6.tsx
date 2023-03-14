@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { useRef } from 'react';
 import data from './depoimentos.json';
 import { TbStarFilled } from 'react-icons/tb';
+import { FcGoogle } from 'react-icons/fc';
 
 function Dobra6() {
 
@@ -33,16 +34,16 @@ function Dobra6() {
   */
 
   return(
-    <div id="depoimentos" className="my-9 tablet:mt-[75px] desktop:mb-[10%]">
+    <div id="depoimentos" className="my-9 tablet:mt-[75px] desktop:mb-[10%] ">
       <h2 className="text-xl text-center font-bold tablet:text-[44px]">O que os nossos clientes dizem</h2>
-      <div ref={wrapper} className="mt-5 mb-8 w-full h-auto mx-auto bg-slate-400 tablet:mt-9 tablet:w-[700px] overflow-hidden relative">
+      <div ref={wrapper} className="mt-5 mb-8 w-full h-auto mx-auto  tablet:mt-9 tablet:w-[700px] overflow-hidden relative ">
         {/* <button className='hidden absolute flex top-0 bottom-0 m-auto h-16 bg-white w-8 text-5xl p-0 cursor-pointer opacity-50 transition-opacity hover:opacity-100 left-0 pl-1' onClick={prev}>
           &#8249;
         </button>
         <button className='hidden absolute flex top-0 bottom-0 m-auto h-16 bg-white w-8 text-5xl p-0 cursor-pointer opacity-50 transition-opacity hover:opacity-100 right-0 pl-1' onClick={next}>
           &#8250;
         </button> */}
-        <div ref={container} className='carousel-container py-4 flex overflow-x-scroll scroll-smooth justify-start items-center snap-x snap-mandatory'>
+        <div ref={container} className='carousel-container py-4 flex overflow-x-scroll scroll-smooth justify-start items-center snap-x snap-mandatory '>
           {data.map((d,i) => <Depoimento key={i} depoimento={d} index={i}/>)}
         </div>
       </div>
@@ -65,23 +66,35 @@ type DepoimentoProps = {
 function Depoimento(props: DepoimentoProps) {
   const stars = Array.from({ length:props.depoimento.score }, (_,i) => i);
   return(
-    <div className='w-[100%] h-[100%] flex-[1_0_100%] flex justify-center items-center snap-start'>
+    <div className='w-[100%] h-[100%] flex-[1_0_100%] flex justify-center items-center snap-start border-solid border '>
       <div className='bg-white rounded-xl p-4 w-11/12'>
         <div className='flex flex-row gap-4'>
-          <div className='flex items-center'>
+          <div className='flex items-center basis-[20%]'>
             <img className='w-10 h-10' src={props.depoimento.avatar} alt={`Avatar de ${props.depoimento.nome}`} loading="lazy" decoding='async'/>
           </div>
-          <div className='flex flex-col'>
-            <div>{props.depoimento.nome}</div>
-            <div>
-              {formatDate(props.depoimento.data)}
-              <div className='flex flex-row'>
-                {stars.map((_, i) => <Star key={i}/>)}
+          <div className='flex flex-col w-full'>
+            <div className='font-bold flex flex-row justify-between w-full'>
+              <div>
+                {props.depoimento.nome}
+                <p className='opacity-50 text-[12px] font-normal'>
+                  {formatDate(props.depoimento.data)}
+                </p>
               </div>
+            <FcGoogle size={'2em'} className=''/>
+            </div>
+            <div>
+              {/* <div className='flex flex-row'>
+                {stars.map((_, i) => <Star key={i}/>)}
+              </div> */}
             </div>
           </div>
         </div>
-        <div className='whitespace-pre-line mt-2'>{props.depoimento.depoimento}</div>
+        <div className='whitespace-pre-line mt-2 text-[14px] flex flex-col gap-2'>
+          <div className='flex flex-row'>
+            {stars.map((_, i) => <Star key={i} />)}
+          </div>
+          {props.depoimento.depoimento}
+        </div>
       </div>
     </div>
   )
@@ -94,7 +107,7 @@ function formatDate(input: string) {
 }
 
 function Star() {
-  return <TbStarFilled/>
+  return <TbStarFilled className="text-[#f6bb06] " />
 }
 
 //Código usado para extrair comentários
