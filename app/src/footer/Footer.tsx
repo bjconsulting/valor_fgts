@@ -10,6 +10,7 @@ function Footer() {
       <div className='tablet:flex tablet:flex-col'>
         <Image width={401} height={99} className='w-[201px] mx-auto tablet:w-[158.25px] tablet:mx-0' src={NextImgSrc('img/bottom-logo.png')} alt="Logo" />
         <div className='w-[243px] mx-auto my-10 text-xs tablet:w-auto'>VALOR SERVIÇOS FINANCEIROS LTDA<br/>CNPJ: 42.095.396/0001-48<br/>TELEFONE: (18) 3600-7910</div>
+        <a className='text-[10px] hover:underline transition-all hover:text-sub w-max'>Política de Privacidade</a>
       </div>
       <div className='tablet:flex tablet:flex-col'>
         <h2 className='text-xl mb-6'>Links Rápidos</h2>
