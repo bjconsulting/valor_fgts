@@ -98,3 +98,12 @@ input[type='checkbox'] {
   border-top: solid 1px var(--prim);
   max-height: 350px;
 }
+
+.hide-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scroll::-webkit-scrollbar{
+  display: none;
+}
