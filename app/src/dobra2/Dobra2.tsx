@@ -10,7 +10,7 @@ function Dobra2() {
         <Image width={634} height={410} className='w-[287px] desktop:w-[633px] desktop:ml-0' src={NextImgSrc('img/img1.jpg')} alt="Família feliz"/>
       </div>
       <div className='flex flex-col gap-4 w-full tablet:w-[545px] tablet:block desktop:w-[600px]'>
-        <h2 className="text-[32px] leading-[35px] w-[80%] mx-auto text-center font-bold my-1 tablet:w-full tablet:mx-[unset] tablet:text-3xl desktop:text-[44px] desktop:leading-[66px]">O que é o <span className="text-[#D5B473]">Empréstimo FGTS?</span></h2>
+        <h2 className="text-[32px] leading-[35px] w-[80%] mx-auto text-center font-bold my-1 tablet:w-full tablet:mx-[unset] tablet:text-3xl desktop:text-[44px] desktop:leading-[66px]">O que é o <span className="text-[#A59145]">Empréstimo FGTS?</span></h2>
         <div className=' flex flex-col gap-4 mx-auto max-w-[393px] tablet:max-w-[456px] desktop:max-w-[574px]'>
           <div className="px-3 mt-5 text-sm font-bold flex items-start gap-6 tablet:font-normal tablet:items-center tablet:pl-4 desktop:mt-14">
             <Image width={30} height={30} className='my-auto w-[30px] h-[30px] tablet:w-[25px] tablet:h-[22.5px] desktop:w-[50.83px] desktop:h-[45.75px]' src={NextImgSrc('img/what1.svg')} alt="Carteira"/>

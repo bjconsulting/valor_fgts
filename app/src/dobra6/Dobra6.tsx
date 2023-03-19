@@ -90,7 +90,7 @@ function Depoimento(props: DepoimentoProps) {
             <div className='font-bold flex flex-row justify-between w-full overflow-hidden'>
               <div className='w-[90%]'>
                 <p className='overflow-hidden overflow-ellipsis whitespace-nowrap'>{props.depoimento.nome}</p>
-                <p className='opacity-50 text-[12px] font-normal'>
+                <p className='text-[12px] font-normal'>
                   {formatDate(props.depoimento.data)}
                 </p>
               </div>

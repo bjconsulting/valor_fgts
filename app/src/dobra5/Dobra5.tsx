@@ -16,7 +16,7 @@ function Dobra5() {
           </picture>
         </div>
         <div className='tablet:pt-10'>
-          <h2 className="text-[32px] leading-[35px] font-bold mb-8 tablet:mb-0 tablet:text-[28px] desktop:text-[52px]"><span className="text-[#D5B473]">Como obter</span> meu empréstimo</h2>
+          <h2 className="text-[32px] leading-[35px] font-bold mb-8 tablet:mb-0 tablet:text-[28px] desktop:text-[52px]"><span className="text-[#A59145]">Como obter</span> meu empréstimo</h2>
           <div className='w-80 mx-auto text-left flex flex-col gap-y-4 tablet:w-full tablet:gap-5 tablet:mt-5'>
             <div className='text-sm flex flex-row gap-x-2 items-start'>
               <Image width={12} height={8} className='mt-1 w-[12px] h-[8px] tablet:w-[24.5px] tablet:h-[15.41px]' src={NextImgSrc('img/check.svg')} alt="" />
@@ -44,7 +44,7 @@ function Dobra5() {
             </div>
           </div>
           <div>
-            <h2 className="text-xl font-bold mt-8 text-[#D5B473] tablet:text-2xl desktop:text-[32px]">Você atende todos os requisitos?</h2>
+            <h2 className="text-xl font-bold mt-8 text-[#A59145] tablet:text-2xl desktop:text-[32px]">Você atende todos os requisitos?</h2>
 
             <a href={WhatsAppCtaUrl()} target="_blank" rel="noreferrer" className="bg-[#106b62] text-white rounded-xl px-4 py-2 flex justify-evenly w-44 items-center mx-auto mt-5 tablet:w-[198px] tablet:h-[64px]"><p className="text-xl">Fale conosco</p><RiWhatsappLine className="w-5 h-5" /></a>
           </div>

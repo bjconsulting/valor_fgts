@@ -4,7 +4,7 @@ import NextImgSrc from '../NextImgSrc';
 function Dobra4() {
   return(
     <div className='max-w-[393px] mx-auto tablet:max-w-[834px] desktop:max-w-[1300px]'>
-      <h2 className="text-[32px] text-center font-bold tablet:text-[34px] desktop:mt-[2em] desktop:text-5xl">Nossos <span className="text-[#D5B473]">números</span></h2>
+      <h2 className="text-[32px] text-center font-bold tablet:text-[34px] desktop:mt-[2em] desktop:text-5xl">Nossos <span className="text-[#A59145]">números</span></h2>
       <div className="flex flex-wrap justify-center gap-y-12 gap-x-1 my-12 desktop:gap-x-[10px]">
         <div className="my-auto justify-center items-center num w-[158px] aspect-[1.19] h-auto flex flex-col pt-5 text-center tablet:w-[200px] desktop:w-[300px] gap-4 tablet:py-4 laptop:py-0">
           <Image width={40} height={55} className='mb-1 w-[30px] h-auto aspect-[0.73] desktop:w-[40px]' src={NextImgSrc('img/num1.svg')} alt="Fita de premiação"/>
