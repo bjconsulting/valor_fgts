@@ -49,10 +49,10 @@ function Dobra6() {
     <div id="depoimentos" className="my-9 tablet:mt-[75px] desktop:mb-[10%] ">
       <h2 className="text-xl text-center font-bold tablet:text-[44px]">O que os nossos clientes dizem</h2>
       <div className='relative w-11/12 mx-auto tablet:w-[764px] tablet:max-w-[95%] tablet:px-2 laptop:w-[1144px]'>
-        <button className='hidden absolute tablet:flex top-0 bottom-0 m-auto h-16 bg-white w-8 text-5xl p-0 cursor-pointer opacity-50 transition-opacity hover:opacity-100 left-0 pl-1' onClick={prev}>
+        <button className='absolute -left-6 tablet:flex top-0 bottom-0 m-auto h-16 bg-white w-8 text-5xl p-0 cursor-pointer opacity-50 transition-opacity hover:opacity-100 pl-1 tablet:left-0' onClick={prev}>
           &#8249;
         </button>
-        <button className='hidden absolute tablet:flex top-0 bottom-0 m-auto h-16 bg-white w-8 text-5xl p-0 cursor-pointer opacity-50 transition-opacity hover:opacity-100 right-0 pl-1' onClick={next}>
+        <button className='absolute -right-5 tablet:flex top-0 bottom-0 m-auto h-16 bg-white w-8 text-5xl p-0 cursor-pointer opacity-50 transition-opacity hover:opacity-100 pl-1 tablet:right-0' onClick={next}>
           &#8250;
         </button>
         <div className="mt-5 mb-8 w-full h-auto mx-auto tablet:mt-9 tablet:w-[700px] tablet:max-w-[95%] laptop:w-[1080px] overflow-hidden relative ">
