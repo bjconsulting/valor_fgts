@@ -1,7 +1,6 @@
 import Image from 'next/image';
-import WhatsAppCtaUrl from '../WhatsAppCtaUrl';
 import NextImgSrc from "../NextImgSrc";
-import { RiWhatsappLine } from 'react-icons/ri';
+import WhatsAppCta from '../WhatsAppCta';
 
 function Dobra2() {
   return (
@@ -25,7 +24,7 @@ function Dobra2() {
             <p className='font-[nexa] text-[18px] tablet:text-[18px] tablet:leading-[16.96px] tablet:font-bold'>E o melhor: sem precisar se preocupar em pagar parcelas mensais,<br className='tablet:hidden'/>já que o pagamento é feito por descontos anuais direto do seu saldo do FGTS.</p>
           </div>
         </div>
-        <a href={WhatsAppCtaUrl()} target="_blank" rel="noreferrer" className="bg-[#106b62] text-white rounded-xl px-4 py-2 flex justify-evenly w-44 items-center mx-auto mt-8 tablet:ml-16 desktop:ml-24 desktop:w-48 desktop:py-2 desktop:text-[28px] desktop:my-12"><p className="text-xl">Fale conosco</p><RiWhatsappLine className="w-5 h-5" /></a>
+        <WhatsAppCta buttonClassName="bg-[#106b62] text-white rounded-xl px-4 py-2 flex justify-evenly w-44 items-center mx-auto mt-8 tablet:ml-16 desktop:ml-24 desktop:w-48 desktop:py-2 desktop:text-[28px] desktop:my-12" textClassName="text-xl" />
       </div>
     </div>
   )

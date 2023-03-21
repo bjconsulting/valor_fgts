@@ -6,7 +6,7 @@ function Dobra4() {
     <div className='max-w-[393px] mx-auto tablet:max-w-[834px] desktop:max-w-[1300px]'>
       <h2 className="text-[32px] text-center font-bold tablet:text-[34px] desktop:mt-[2em] desktop:text-5xl">Nossos <span className="text-[#A59145]">números</span></h2>
       <div className="flex flex-wrap justify-center gap-y-12 gap-x-1 my-12 desktop:gap-x-[10px]">
-        <div className="my-auto justify-center items-center num w-[158px] aspect-[1.19] h-auto flex flex-col pt-5 text-center tablet:w-[200px] desktop:w-[300px] gap-4 tablet:py-4 laptop:py-0">
+        <div className="my-auto justify-center items-center num w-[158px] aspect-[1.19] h-auto flex flex-col pt-5 text-center tablet:w-[198px] desktop:w-[300px] gap-4 tablet:py-4 laptop:py-0">
           <Image width={40} height={55} className='mb-1 w-[30px] h-auto aspect-[0.73] desktop:w-[40px]' src={NextImgSrc('img/num1.svg')} alt="Fita de premiação"/>
           <h3 className='text-xl font-bold tablet:text-2xl desktop:text-3xl'>+35 mil</h3>
           <div className='font-[nexa] text-base desktop:text-lg'>clientes atendidos</div>
@@ -24,7 +24,7 @@ function Dobra4() {
         <div className="num w-[158px] justify-center items-center aspect-[1.19] h-auto flex flex-col pt-5  text-center tablet:w-[200px] desktop:w-[300px] gap-4 tablet:py-4 laptop:py-0">
           <Image width={48} height={46} className='mb-2 w-[38px] h-auto aspect-[1.05] desktop:w-[48px]' src={NextImgSrc('img/num4.svg')} alt="Estrela"/>
           <h3 className='text-xl font-bold mb-1 tablet:text-2xl desktop:text-3xl'>Nota 4.9</h3>
-          <div className='font-[nexa] text-xs tablet:text-sm desktop:text-base'>De avaliação no google</div>
+          <div className='font-[nexa] text-sm desktop:text-lg'>De avaliação no google</div>
         </div>
       </div>
     </div>

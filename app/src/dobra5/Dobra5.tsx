@@ -1,7 +1,6 @@
 import Image from 'next/image';
-import { RiWhatsappLine } from 'react-icons/ri';
 import NextImgSrc from '../NextImgSrc';
-import WhatsAppCtaUrl from '../WhatsAppCtaUrl';
+import WhatsAppCta from '../WhatsAppCta';
 
 function Dobra5() {
   return (
@@ -46,7 +45,7 @@ function Dobra5() {
           <div>
             <h2 className="text-xl font-bold mt-8 text-[#A59145] tablet:text-2xl desktop:text-[32px]">Você atende todos os requisitos?</h2>
 
-            <a href={WhatsAppCtaUrl()} target="_blank" rel="noreferrer" className="bg-[#106b62] text-white rounded-xl px-4 py-2 flex justify-evenly w-44 items-center mx-auto mt-5 tablet:w-[198px] tablet:h-[64px]"><p className="text-xl">Fale conosco</p><RiWhatsappLine className="w-5 h-5" /></a>
+            <WhatsAppCta buttonClassName="bg-[#106b62] text-white rounded-xl px-4 py-2 flex justify-evenly w-44 items-center mx-auto mt-5 tablet:w-[198px] tablet:h-[64px]" textClassName="text-xl" />
           </div>
         </div>
       </div>
