@@ -1,5 +1,12 @@
+import React from "react"
 import WhatsAppCtaUrl from "../WhatsAppCtaUrl";
 import { RiWhatsappLine } from 'react-icons/ri'
+
+declare module "react" {
+  interface ImgHTMLAttributes<T> extends HTMLAttributes<T> {
+    fetchPriority?: 'high' | 'low' | 'auto';
+  }
+}
 
 function Dobra1() {
   return (
@@ -18,7 +25,7 @@ function Dobra1() {
         <source media="(max-width: 430px)" srcSet="img/photo_banner-m2.png" type='image/png'/>
         <source srcSet="img/photo_banner.avif" type='image/avif'/>
         <source srcSet="img/photo_banner.webp" type='image/webp'/>
-        <img className="mx-auto w-full my-10 tablet:w-[294px] tablet:my-0 desktop:w-[542px]" width={542} height={566} src="img/photo_banner.png" alt="Pessoa feliz ao telefone com a mensagem 'simples, rápido e seguro'" loading='eager'/>
+        <img fetchPriority="high" className="mx-auto w-full my-10 tablet:w-[294px] tablet:my-0 desktop:w-[542px]" width={542} height={566} src="img/photo_banner.png" alt="Pessoa feliz ao telefone com a mensagem 'simples, rápido e seguro'" loading='eager'/>
       </picture>
     </div>
   );
