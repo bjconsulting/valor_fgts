@@ -1,4 +1,5 @@
 import React from "react"
+import NextImgSrc from "../NextImgSrc";
 import WhatsAppCta from "../WhatsAppCta";
 
 declare module "react" {
@@ -19,12 +20,12 @@ function Dobra1() {
       {/* <Image className="mx-auto w-full my-10 tablet:w-[294px] tablet:my-0 desktop:w-[542px]" width={542} height={566} src={NextImgSrc('img/photo_banner.png')} alt="Pessoa feliz ao telefone com a mensagem 'simples, rápido e seguro'" loading='eager'/>
       <img className="mx-auto w-full my-10 tablet:w-[294px] tablet:my-0 desktop:w-[542px]" src={NextImgSrc('img/photo_banner.png')} alt="Pessoa feliz ao telefone com a mensagem 'simples, rápido e seguro'" loading='eager'/> */}
       <picture>
-        <source media="(max-width: 430px)" srcSet="img/photo_banner-m2.avif" type='image/avif'/>
-        <source media="(max-width: 430px)" srcSet="img/photo_banner-m2.webp" type='image/webp'/>
-        <source media="(max-width: 430px)" srcSet="img/photo_banner-m2.png" type='image/png'/>
-        <source srcSet="img/photo_banner.avif" type='image/avif'/>
-        <source srcSet="img/photo_banner.webp" type='image/webp'/>
-        <img fetchpriority="high" className="mx-auto w-full my-10 tablet:w-[294px] tablet:my-0 desktop:w-[542px]" width={542} height={566} src="img/photo_banner.png" alt="Pessoa feliz ao telefone com a mensagem 'simples, rápido e seguro'" loading='eager'/>
+        <source media="(max-width: 430px)" srcSet={NextImgSrc("img/photo_banner-m2.avif")} type='image/avif'/>
+        <source media="(max-width: 430px)" srcSet={NextImgSrc("img/photo_banner-m2.webp")} type='image/webp'/>
+        <source media="(max-width: 430px)" srcSet={NextImgSrc("img/photo_banner-m2.png")} type='image/png'/>
+        <source srcSet={NextImgSrc("img/photo_banner.avif")} type='image/avif'/>
+        <source srcSet={NextImgSrc("img/photo_banner.webp")} type='image/webp'/>
+        <img fetchpriority="high" className="mx-auto w-full my-10 tablet:w-[294px] tablet:my-0 desktop:w-[542px]" width={542} height={566} src={NextImgSrc("img/photo_banner.png")} alt="Pessoa feliz ao telefone com a mensagem 'simples, rápido e seguro'" loading='eager'/>
       </picture>
     </div>
   );
